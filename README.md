@@ -1,2 +1,4 @@
 # learngit
 Learn how to use github
+Git is a distributed version control system.
+Git is free software.
