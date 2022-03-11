@@ -1,5 +1,5 @@
 # learngit
-Learn how to use github
-Git is a distributed version control system.
-Git is free software.
-Creating a new branch is quick.
+## Learn how to use github.
+- Git is a distributed version control system.
+- Git is free software.
+- Creating a new branch is quick.
