@@ -28,6 +28,19 @@ if __name__ == '__main__':
     num = int(input("请输入一个整数："))
 
     if num % 2 == 0 and num % 3 == 0:
-        print("{}能被 2 和 3 同时整除")
+        print("{}能被 2 和 3 同时整除".format(num))
     else:
-        print("{}能被 2 和 3 同时整除")
+        print("{}不能被 2 和 3 同时整除".format(num))
+
+    if num % 2 == 0:
+        print("{}能被 2 整除".format(num))
+    else:
+        print("{}不能被 2 整除".format(num))
+
+    if num % 3 == 0:
+        print("{}能被 3 整除".format(num))
+    else:
+        print("{}不能被 3 整除".format(num))
+
+    if (num % 2) and (num % 3):
+        print("{}不能被 2 和 3 同时整除".format(num))
